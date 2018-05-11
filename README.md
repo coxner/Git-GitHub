@@ -14,4 +14,5 @@ Copying the history of a git repo from one computer to another is known as cloni
 
 Head is what git uses to refer to the commit it is currently on.
 
+### The Git Workflow
 ![Alt](images/gc.png)

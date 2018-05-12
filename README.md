@@ -18,4 +18,10 @@ Head is what git uses to refer to the commit it is currently on.
 
 Git files start by being stored in the working directory. When the command `git add` is done it moves file from the working directory to the staging directory. When the command `git commit` is done it moves files from the staging area to the repository. By default the staging area contains files of the most recent commit. See the diagram below to understand this workflow.
 
-![Alt](images/gc.png)
+![git-work-flow](images/gc.png)
+
+Now that we understand how the directories work there's a few commands that work with them. `git reset` removes all files from the staging area. `git diff` with no arguments will compare the files in the working directory to the files in the staging directory. `git diff --staged` compares the files in the staging area to your most recent commit. `git reset --hard` restores any changes to files in the working directory or staging area. BE CAREFUL using this before changes that have not been commited are deleted.
+
+### Branches
+
+![branches](images/branches.png)
